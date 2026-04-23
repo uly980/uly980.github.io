@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional | Ingeniería en Sistemas</title>
+    <style>
+        :root { --bg: #f4f7f6; --text: #2d3436; --primary: #0984e3; --white: #ffffff; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--text); background: var(--bg); margin: 0; }
+        header { background: var(--primary); color: var(--white); padding: 3rem 1rem; text-align: center; }
+        .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+        section { background: var(--white); padding: 2rem; border-radius: 8px; margin-bottom: 2rem; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h2 { color: var(--primary); border-bottom: 2px solid var(--bg); padding-bottom: 0.5rem; }
+        .project { margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid #eee; }
+        .tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem; }
+        .tag { background: var(--bg); padding: 0.2rem 0.8rem; border-radius: 15px; font-size: 0.85rem; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ulises Daniel Vargas Nedzelsky</h1>
+        <p>Ingeniería en Sistemas Computacionales y Electrónicos | Universidad del Noreste</p>
+    </header>
+    <div class="container">
+        <section id="about">
+            <h2>Perfil Profesional</h2>
+            <p>Estudiante de quinto cuatrimestre con enfoque en la integración de arquitecturas de software y sistemas embebidos. Especialización en administración de bases de datos relacionales y desarrollo de soluciones de automatización mediante hardware y software.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Proyectos Destacados</h2>
+            
+            <div class="project">
+                <h3>Sistema WING - Automatización de Pagos</h3>
+                <p>Desarrollo de una solución integral para la gestión de registros y pagos. Implementación de una arquitectura que conecta interfaces web con bases de datos robustas para la persistencia de información en tiempo real.</p>
+                <div class="tags">
+                    <span class="tag">SQL Server</span><span class="tag">JavaScript</span><span class="tag">Google Sheets API</span>
+                </div>
+            </div>
+
+            <div class="project">
+                <h3>Prótesis Robótica EMG</h3>
+                <p>Diseño y construcción de una prótesis funcional para el Lenguaje de Señas Mexicano (LSM). El sistema procesa señales biométricas para el control preciso de actuadores mecánicos.</p>
+                <div class="tags">
+                    <span class="tag">Arduino</span><span class="tag">Electrónica Analógica</span><span class="tag">C++</span>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
